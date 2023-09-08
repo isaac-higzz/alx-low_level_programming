@@ -11,17 +11,17 @@
  */
 int main(void)
 {
-	int a;
+	int n;
 
 	srand(time(0));
-	a = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (a > 0)
-		printf("%d is positive", a);
-	else if (a >= 0)
-		printf("%d is zero", a);
-	else if (a < 0)
-		printf("%d is negative", a);
+	if (n > 0)
+		printf("%d is positive", n);
+	else if (n >= 0)
+		printf("%d is zero", n);
+	else if (n < 0)
+		printf("%d is negative", n);
 	printf("\n");
 	return (0);
 }
