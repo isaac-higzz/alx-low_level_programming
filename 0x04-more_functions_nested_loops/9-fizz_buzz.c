@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "main.h"
-#include <stdio.h">
 
 /**
  * main - print 1 - 100 followed by a new line
@@ -13,25 +13,21 @@
 
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (num % 3 == 0 && !(num % 5 == 0)
+		if (i % 15  == 0)
+			printf("FizzBuzz")
+		else if (i % 3 == 0)
 			printf("Fizz");
-		else if (num % 5 == 0 && !(num % 3 == 0)
+		else if (i % 5 == 0)
 			printf("Buzz");
-		else if (num % 3 == 0 && num % 5 == 0)
-			printf("FizzBuzz");
 		else
-			printf("%d", num);
-
-		if (num != 100)
+			printf("%i", i);
+		if (i < 100)
 			printf(" ");
-		else
-			printf("\n");
 	}
-
+	printf("\n");
 	return (0);
 }
-
