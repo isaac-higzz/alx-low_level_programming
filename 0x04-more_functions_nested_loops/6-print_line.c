@@ -2,14 +2,14 @@
 
 /**
  * print_line -draws a straight line in the terminal
- * @n: number of tomes the character  _ should be printed
+ * @n: number of times the character  _ should be printed
  */
 
 void print_line(int n)
 {
 	if (n <= 0)
 	{
-		_putcahr('\n');
+		_putchar('\n');
 	} else
 	{
 		int i;
