@@ -2,6 +2,8 @@
 
 /**
  * more_numbers - print more numbers
+ * you can onlt use _putchar
+ * Return: Always 0 (success)
  */
 
 void more_numbers(void)
@@ -15,7 +17,7 @@ void more_numbers(void)
 			num = count;
 			if (count > 9)
 			{
-				_putcahr(1 + 48);
+				_putchar(1 + 48);
 				num = count % 10;
 			}
 			_putchar(num + 48);
