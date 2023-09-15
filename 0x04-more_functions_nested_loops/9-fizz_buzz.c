@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h">
+
 /**
  * main - print 1 - 100 followed by a new line
  *	numbers that are multiples of 3 prints Fizz
