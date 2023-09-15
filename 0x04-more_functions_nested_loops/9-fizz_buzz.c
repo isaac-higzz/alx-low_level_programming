@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * main - prints the numbers from 1 to 100, followed by a new line
- * but for multiples of three prints Fizz instead of the number
- * and for the multiples of ive print Buzz
- * Return: Always 0 (succes)
+ * main - print 1 - 100 followed by a new line
+ *	numbers that are multiples of 3 prints Fizz
+ *	numbers that are multiples of 5 print Buzz
+ *	numbers that are multiples of 3 and 5 print FizzBuzz
+ *	each number and word to be seperated by space
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
