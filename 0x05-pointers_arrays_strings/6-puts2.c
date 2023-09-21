@@ -5,7 +5,7 @@
  * @str: input
  * Return: print
  */
-void put2(char *str)
+void puts2(char *str)
 {
 	int longi = 0;
 	int t = 0;
@@ -22,7 +22,7 @@ void put2(char *str)
 	{
 		if (o % 2 == 0)
 	{
-		_putchar(str[0]);
+		_putchar(str[o]);
 	}
 	}
 	_putchar('\n');
