@@ -3,12 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-void _puts(char *s)
+
+int _putchar(char c)
 {
-	puts(s);
+	return putchar(c);
 }
